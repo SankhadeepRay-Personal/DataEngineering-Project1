@@ -1,0 +1,81 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD004",
+      "order_date": "2023-07-04",
+      "customer": {
+        "customer_id": " CUST004 ",
+        "name": "BOB MARTIN",
+        "email": "bob.martin@example.com",
+        "country": " Australia "
+      },
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Laptop Stand",
+          "category": " Accessories ",
+          "quantity": "2",
+          "unit_price": 30.00
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Laptop Stand",
+          "category": "Accessories",
+          "quantity": "2",
+          "unit_price": 30.00
+        }
+      ],
+      "payment_method": " Credit Card ",
+      "total_amount": 60.00
+    },
+    {
+      "order_id": "ORD005",
+      "order_date": "2023-07-05",
+      "customer": {
+        "customer_id": "CUST005",
+        "name": "charlie lee",
+        "email": null,
+        "country": "India"
+      },
+      "items": [
+        {
+          "product_id": "P006",
+          "product_name": "Webcam ",
+          "category": "Accessories",
+          "quantity": "1",
+          "unit_price": 75.00
+        },
+        {
+          "product_id": "P002",
+          "product_name": "USB-C Hub",
+          "category": "Accessories",
+          "quantity": "-2",
+          "unit_price": 45.00
+        }
+      ],
+      "payment_method": " PayPal ",
+      "total_amount": 120.00
+    },
+    {
+      "order_id": "ORD006",
+      "order_date": "2023-07-06",
+      "customer": {
+        "customer_id": "CUST006",
+        "name": "Diana Prince ",
+        "email": "  diana.prince@example.com",
+        "country": "Germany"
+      },
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Noise Cancelling Headphones",
+          "category": "Accessories",
+          "quantity": "one",
+          "unit_price": 120.00
+        }
+      ],
+      "payment_method": "Credit Card",
+      "total_amount": 120.00
+    }
+  ]
+}

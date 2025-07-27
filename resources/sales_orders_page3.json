@@ -1,0 +1,88 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD007",
+      "order_date": "2023-07-07",
+      "customer": {
+        "customer_id": "CUST007",
+        "name": "Ethan Hunt ",
+        "email": "ethan.hunt@example.com",
+        "country": " USA"
+      },
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Portable SSD",
+          "category": " Storage",
+          "quantity": "1",
+          "unit_price": 95.00
+        },
+        {
+          "product_id": "P009",
+          "product_name": "Mechanical Keyboard",
+          "category": "Accessories ",
+          "quantity": "0",
+          "unit_price": 85.00
+        }
+      ],
+      "payment_method": " Debit Card",
+      "total_amount": 180.00
+    },
+    {
+      "order_id": "ORD008",
+      "order_date": "2023-07-08",
+      "customer": {
+        "customer_id": "CUST008",
+        "name": "Fiona Gallagher",
+        "email": "",
+        "country": "Ireland"
+      },
+      "items": [
+        {
+          "product_id": "P010",
+          "product_name": "External Hard Drive",
+          "category": "Storage",
+          "quantity": "1",
+          "unit_price": 65.00
+        },
+        {
+          "product_id": "P010",
+          "product_name": "External Hard Drive",
+          "category": "Storage",
+          "quantity": "1",
+          "unit_price": 65.00
+        }
+      ],
+      "payment_method": "Credit Card ",
+      "total_amount": 130.00
+    },
+    {
+      "order_id": "ORD009",
+      "order_date": "2023-07-09",
+      "customer": {
+        "customer_id": "CUST009",
+        "name": " George King",
+        "email": "george.king@example.com",
+        "country": "UK"
+      },
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Gaming Chair",
+          "category": " Furniture",
+          "quantity": "2",
+          "unit_price": 250.00
+        },
+        {
+          "product_id": "P011",
+          "product_name": "Gaming Chair",
+          "category": "Furniture",
+          "quantity": "2",
+          "unit_price": 250.00
+        }
+      ],
+      "payment_method": " Credit Card ",
+      "total_amount": 500.00
+    }
+  ]
+}

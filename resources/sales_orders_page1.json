@@ -1,0 +1,81 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD001",
+      "order_date": "2023-07-01",
+      "customer": {
+        "customer_id": "CUST001",
+        "name": " john doe ",
+        "email": "john.doe@example.com",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "P001",
+          "product_name": "Wireless Mouse ",
+          "category": " Accessories",
+          "quantity": "2",
+          "unit_price": 25.00
+        },
+        {
+          "product_id": "P002",
+          "product_name": "USB-C Hub",
+          "category": "Accessories",
+          "quantity": "0",
+          "unit_price": 45.00
+        }
+      ],
+      "payment_method": " Credit Card ",
+      "total_amount": 95.00
+    },
+    {
+      "order_id": "ORD002",
+      "order_date": "2023-07-02",
+      "customer": {
+        "customer_id": "CUST002",
+        "name": "Jane Smith",
+        "email": "",
+        "country": "UK"
+      },
+      "items": [
+        {
+          "product_id": "P003",
+          "product_name": "Bluetooth Keyboard",
+          "category": "Accessories",
+          "quantity": "1",
+          "unit_price": 60.00
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Wireless Mouse",
+          "category": "Accessories",
+          "quantity": "-1",
+          "unit_price": 25.00
+        }
+      ],
+      "payment_method": "PayPal",
+      "total_amount": 85.00
+    },
+    {
+      "order_id": "ORD003",
+      "order_date": "2023-07-03",
+      "customer": {
+        "customer_id": "CUST003",
+        "name": "Alice Brown",
+        "email": "alice.brown@example.com",
+        "country": "Canada"
+      },
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "27\" 4K Monitor",
+          "category": "Displays",
+          "quantity": "1",
+          "unit_price": 350.00
+        }
+      ],
+      "payment_method": "Credit Card",
+      "total_amount": 350.00
+    }
+  ]
+}
